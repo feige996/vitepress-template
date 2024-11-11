@@ -12,5 +12,8 @@
     "vue"
   ],
   "author": "菲鸽<1020103647@qq.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
 }
