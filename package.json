@@ -4,6 +4,8 @@
   "description": "vitepress template",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,7 +14,7 @@
     "vue"
   ],
   "author": "菲鸽<1020103647@qq.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.5.0"
   }
