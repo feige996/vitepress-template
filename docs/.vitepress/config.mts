@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/', // TODO: check 部署出去的 path 是不是根路径，如果不是需要改为 /path/ 这样的路径
   title: 'unibest',
   description: 'A Beautiful VitePress Site Generator',
   themeConfig: {
